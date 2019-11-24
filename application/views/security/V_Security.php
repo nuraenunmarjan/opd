@@ -9,7 +9,7 @@
       <tr>
         <th scope="col"> Patrol Date</th>
         <th scope="col">Route</th>
-        <th scope="col">Variant</th>
+        <th scope="col">Variant</th>        
         <th scope="col">action</th>
       </tr>
     </thead>
@@ -20,7 +20,7 @@
         <td><?php echo $key->id_route; ?></td>
         <td><?php echo $key->id_schedule; ?></td>
         <td><a class="btn-security" data-toggle="modal" data-patrol_date="<?php echo str_replace(" ", "_", $key->patrol_date); ?>" data-target="#modalSecurity" href="#">detail</a>
-      </tr>
+       </tr>
     <?php endforeach ?>
     <div class="modal fade" id="modalSecurity" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 <div class="modal-dialog modal-dialog-centered" role="document">
