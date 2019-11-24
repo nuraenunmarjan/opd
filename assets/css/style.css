@@ -50,7 +50,8 @@ body {
 }
 
 .sidebar .nav-link.active {
-  color: #00FFDC;
+  color: #0D3C4E;
+  background-color: white;
 }
 
 .sidebar .nav-link:hover .feather,
@@ -150,7 +151,8 @@ footer{
 }
 
 .overlay-bg{
-  background-color: 
+  background-color: rgba(13,60,78,0.8);
+  height: 100vh;
 }
 
 #hr-login{
@@ -173,7 +175,7 @@ footer{
   color: white;
   border-radius: 10px;
 }
-}
+
 
 /* END OF LOGIN */
 
